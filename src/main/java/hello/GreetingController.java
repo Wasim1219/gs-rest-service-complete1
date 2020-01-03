@@ -22,7 +22,7 @@ public class GreetingController {
 	 */
 	
 	@GetMapping("/greeting")
-	public Greeting greeting1(@RequestParam(value="name", defaultValue="World") String name) {
+	public Greeting greeting1(@RequestParam(value="name", defaultValue="World How are you?") String name) {
 		return new Greeting(counter.incrementAndGet(),
 							String.format(template, name));
 	}
