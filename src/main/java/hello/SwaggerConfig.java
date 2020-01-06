@@ -24,7 +24,7 @@ public class SwaggerConfig {
 	}
 
 	private Predicate<String> postPaths() {
-		return or(regex("/greeting.*"), regex("/greeting.*"));
+		return or(regex("/topics/.*"), regex("/topics/.*"));
 	}
 
 	@SuppressWarnings("deprecation")
