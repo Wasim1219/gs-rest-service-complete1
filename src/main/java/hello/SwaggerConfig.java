@@ -32,6 +32,7 @@ public class SwaggerConfig {
 		return new ApiInfoBuilder().title("Spring Boot App")
 				.description("SpringBoot App reference for developers")
 				.termsOfServiceUrl("cloudgensys.com")
+				.contact("wasim.deshmukh").license("CloudGen License")
 				.licenseUrl("dummy@dummy.com").version("1.0").build();
 	}
 
