@@ -1,4 +1,6 @@
 C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\SwaggerConfig.java
-C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\GreetingController.java
 C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\Application.java
-C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\Greeting.java
+C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\TopicDao.java
+C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\TopicController.java
+C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\Topic.java
+C:\Users\CloudGen\eclipse-workspace\gs-rest-service-complete\src\main\java\hello\TopicService.java

@@ -1,6 +1,7 @@
 package hello;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.atomic.AtomicLong;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,21 +30,21 @@ public class TopicController {
     }
 
     @GetMapping("/topics/{id}")
-    public Topic getTopic(@PathVariable("id") String id) {
+    public Optional<Topic> getTopic(@PathVariable("id") String id) {
         return topicService.getTopic(id);
     }
 
 
     @PostMapping("/topics/topics")
-    public  List<Topic> addTopic(@RequestBody Topic topic) {
-        return topicService.addTopic(topic);
+    public  void addTopic(@RequestBody Topic topic) {
+        topicService.addTopic(topic);
 
     }
 
 
     @PutMapping("/topics/{id}")
     public void updateTopic(@RequestBody Topic topic, @PathVariable("id") String id) {
-        topicService.updateTopic(topic, id);
+        topicService.updateTopic(topic);
     }
 
     @DeleteMapping("/topics/{id}")
