@@ -21,11 +21,13 @@ public class TopicController {
 	
 	@Autowired
     private TopicService topicService;
-
-
+	
+	@RequestMapping("/topics/all")
+	public void createTopic() {
+		topicService.createTopic();
+	}
     @RequestMapping("/topics")
     public List<Topic> all_topics() {
-
         return topicService.getAllTopicList();
     }
 
