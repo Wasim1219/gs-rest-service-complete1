@@ -53,7 +53,7 @@ public class TopicController {
 	
 }
 
-// build trigger!
+// build trigger
 /*public class GreetingController {
 
 	private static final String template = "Hello, %s!";
